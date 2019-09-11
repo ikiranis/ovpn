@@ -8,7 +8,7 @@ services:
     container_name: openvpn
     restart: always
     ports:
-      - 1194:1194/udp
+      - 1195:1195/udp
     volumes:
       - data:/etc/openvpn
     cap_add:
