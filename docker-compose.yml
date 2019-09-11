@@ -10,7 +10,7 @@ services:
     ports:
       - 1195:1195/udp
     volumes:
-      - data:/etc/openvpn
+      - .data:/etc/openvpn
     cap_add:
       - NET_ADMIN
 #    environment:
