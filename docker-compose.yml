@@ -3,7 +3,8 @@ version: '2'
 services:
 
   openvpn_server:
-    image: mjenz/rpi-openvpn
+    image: kylemanna/openvpn
+#    image: mjenz/rpi-openvpn
     container_name: openvpn
     restart: always
     ports:
