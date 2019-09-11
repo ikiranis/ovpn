@@ -3,9 +3,13 @@ Setup ovpn with docker
 
 https://hub.docker.com/r/kylemanna/openvpn/
 
+Run the file setup.sh
+
+Or 
+
 ```
 docker volume create --name data
-docker run -v data:/etc/openvpn --log-driver=none --rm kylemanna/openvpn ovpn_genconfig -u udp://VPN.SERVERNAME.COM
+docker run -v data:/etc/openvpn --log-driver=none --rm kylemanna/openvpn ovpn_genconfig -u udp://rocean.ddns.net
 docker run -v data:/etc/openvpn --log-driver=none --rm -it kylemanna/openvpn ovpn_initpki
 ```
 
