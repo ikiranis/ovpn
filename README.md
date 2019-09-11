@@ -30,3 +30,5 @@ Retrieve the client configuration with embedded certificates
 ```
 docker run -v data:/etc/openvpn --log-driver=none --rm kylemanna/openvpn ovpn_getclient tardis > tardis.ovpn
 ```
+
+Copy the tardis.ovpn file to your client and use it to connect 
