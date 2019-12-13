@@ -32,3 +32,7 @@ docker run -v data:/etc/openvpn --log-driver=none --rm kylemanna/openvpn ovpn_ge
 ```
 
 Copy the tardis.ovpn file to your client and use it to connect 
+
+**Run again the ovpn container**
+
+``docker start ovpn``
